@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ .banner{
+    @apply  bg-gradient-to-r from-black to-[#ff7779] font-semibold text-[#ff7779] w-full  !important 
+
+ }
+ .button{
+    @apply  bg-gradient-to-r from-black to-[#ff7779] mt-2 ml-2 text-white  !important
+ }
+ .buttons{
+    @apply   bg-black rounded-2xl text-[#ff7779]  border-[#ff7779] border-2 mt-2  ml-4 !important 
+ }
+
+
+
